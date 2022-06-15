@@ -124,18 +124,36 @@ header ul li{
     width: 50%;
     background-color: #161D27;
 }
+.headPos{
+  height: 10%;
+}
 .row {
     display: flex;
     width: 100%
   }
 .row2{
   display: flex;
-  width: 60%;
+  width: 80%;
+  background-color: #eef6f8;
+  border-radius: 2%;
+  float: center; 
+  margin: auto;
+  /* height: 50%; */
+}
+.row3{
+  display: flex;
+  width: 80%;
   background-color: #eef6f8;
   border-radius: 2%;
   float: center; 
   margin: auto;
 }
+.row3:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .row2:after {
   content: "";
   display: table;
