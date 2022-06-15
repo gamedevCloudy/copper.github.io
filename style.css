@@ -1,35 +1,47 @@
-body{
-    background-color: #2d2d2d;
+body {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #050016;
 }
 header{
-    background-color: #eef6f8;
-    border-radius: 15vw;
-    width: 50%;
-    display: inline-block;
-    margin-left: 25%;
-    position: fixed;
+  background-color: #eef6f8;
+  border-radius: 5vw;
+  width: 50vw;
+  display: inline-block;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 2%;
+  position: fixed;
   }
 .home-head{
     background-color: #e2eef1;
 }
 header ul li{
-    padding-right: 10%;
-    display: inline-block;
-    padding-left: 10%;
+  padding-right: 10%;
+  display: inline-block;
+  padding-left: 10%;
+  margin: auto;
 }
+
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-    /* color: rgb(254, 185, 185); */
-    background-color: #FD4C53;
-  }
+  color: #fff;
+  background-color: #fd4c53;
+}
 
 .nav {
+  /* display: -ms-flexbox; */
   display: flex;
+  /* -ms-flex-wrap: wrap; */
   flex-wrap: wrap;
-  padding-left: 7.5%;
-  padding-right: 7.5%;
-  margin-bottom: 0;
+  padding-left: 0;
+  /* margin-bottom: 0; */
   list-style: none;
-  /* background-color: #FD4C53; */
+  margin: auto;
 }   
 
 .post-body{
@@ -71,7 +83,7 @@ header ul li{
     width: 33.33%;
   }
 .col-50{
-    width: 50%;
+    width: 49%;
     float: center;
     border-radius: 10%;
     background-color: #eef6f8;
@@ -114,6 +126,7 @@ hr{
 }
 .container1{
   margin-bottom: 10%;
+  display: inline-block;
 }
 pre {
   margin-left: 25%;
@@ -122,4 +135,18 @@ pre {
   color: #eef6f8;
   margin-right: 25%;
   text-align: center;
+}
+.nav .nav-pills{
+  margin-left: 50%; 
+  text-align: center;
+  /* padding: 50; */
+}
+.nav-item{
+  width: fit-content;
+}
+.about{
+  /* margin: auto; */
+  margin-top: 6em;
+  text-align: center;
+  text-decoration: #FD4C53;
 }
