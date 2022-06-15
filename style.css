@@ -1,5 +1,5 @@
 body{
-    background-color: #161D27;
+    background-color: #2d2d2d;
 }
 header{
     background-color: #eef6f8;
@@ -9,14 +9,16 @@ header{
     margin-left: 25%;
     position: fixed;
   }
-
+.home-head{
+    background-color: #e2eef1;
+}
 header ul li{
     padding-right: 10%;
     display: inline-block;
     padding-left: 10%;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-    color: #fff;
+    /* color: rgb(254, 185, 185); */
     background-color: #FD4C53;
   }
 
@@ -27,6 +29,7 @@ header ul li{
   padding-right: 7.5%;
   margin-bottom: 0;
   list-style: none;
+  /* background-color: #FD4C53; */
 }   
 
 .post-body{
@@ -38,6 +41,7 @@ header ul li{
     margin-top: 6em;
     margin-left: 10%;
     margin-right: 10%;
+    background-color: rgb(5, 0, 22);
 }
   .post1 {
     border-radius: 10%;
@@ -47,6 +51,7 @@ header ul li{
     margin: 10%;
     padding: 5%;
   }
+
 
 .post2 {
     border-radius: 10%;
@@ -60,20 +65,36 @@ header ul li{
 .column {
     float: center;
     width: 33.33%;
+    padding: 0.5%;
   }
   .column-2 {
     width: 33.33%;
   }
-  
+.col-50{
+    width: 50%;
+    float: center;
+    border-radius: 10%;
+    background-color: #eef6f8;
+    width: 80%;
+    height:auto;
+    margin: 10%;
+    padding: 5%;
+}
+.head-post{
+    width: 50%;
+    background-color: #161D27;
+}
+.row {
+    display: flex;
+    width: 100%
+  }
   /* Clear floats after the columns */
 .row:after {
     content: "";
     display: table;
     clear: both;
   }
-.column{
-  padding: 0.5%;
-}
+
 img{
     border-radius: 10%;
   }
