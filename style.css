@@ -55,6 +55,16 @@ header ul li{
     margin-right: 10%;
     background-color: rgb(5, 0, 22);
 }
+
+.postHeading{
+  margin-top: 6em;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: #eef6f8;
+  width:80%;
+  border-radius: 5%;
+  height: 256px;
+}
   .post1 {
     border-radius: 10%;
     background-color: #eef6f8;
@@ -69,10 +79,11 @@ header ul li{
     border-radius: 10%;
     background-color: #eef6f8;
     width: 80%;
-    height:50%;
+    height:48%;
     margin: 10%;
     padding: 5%;
   }
+
   
 .column {
     float: center;
@@ -82,15 +93,32 @@ header ul li{
   .column-2 {
     width: 33.33%;
   }
+  .column3 {
+    width: 49%;
+    float: center;
+    padding: .5%;
+  }
+  .column4{
+    width: 35%;
+    float: center;
+    padding: .5%;
+  }
+  .column5{
+    width: 65%;
+    float: center;
+    padding: .5%;
+  }
 .col-50{
     width: 49%;
     float: center;
     border-radius: 10%;
-    background-color: #eef6f8;
-    width: 80%;
-    height:auto;
+    /* background-color: #eef6f8; */
+    /* width: 80%; */
+     /* height:%; */
     margin: 10%;
     padding: 5%;
+    /* display: flex;
+    justify-content: center; */
 }
 .head-post{
     width: 50%;
@@ -100,6 +128,20 @@ header ul li{
     display: flex;
     width: 100%
   }
+.row2{
+  display: flex;
+  width: 60%;
+  background-color: #eef6f8;
+  border-radius: 2%;
+  float: center; 
+  margin: auto;
+}
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
   /* Clear floats after the columns */
 .row:after {
     content: "";
@@ -115,10 +157,21 @@ img{
   /* margin-top: 2%; */
   margin-right: 15%;
   margin-left: 15%;
+  position: fixed;
+  /* top:0; */
 }
 .btn{
   background-color:#FD4C53;
   color:#161D27;
+}
+.btn {
+  color: #fff;
+  background-color: #fd4c53;
+  /* border-color: #6c757d; */
+  border: 0px;
+}
+.hashtag-browse{
+  margin-left: 20%; 
 }
 hr{
   color: #eef6f8;
@@ -149,4 +202,9 @@ pre {
   margin-top: 6em;
   text-align: center;
   text-decoration: #FD4C53;
+  color:#eef6f8;
+}
+
+a{
+  color: #FD4C53; 
 }
